@@ -24,15 +24,15 @@ int main()
   std::cout.precision(30);
   
   // define a float using the type suffix f, but the same 25 decimal places
-  float ft_pi = 3.1415926535897932384626433f;
+  float ft_pi = ____________________________;
   std::cout << "The float pi is: " << ft_pi << std::endl;
 
   // define a double using the type suffix d
-  double db_pi = 3.1415926535897932384626433d;
+  double db_pi = ___________________________;
   std::cout << "The double pi is: " << db_pi << std::endl;
 
   // define a long double using the type suffx L
-  long double ld_pi = 3.1415926535897932384626433L;
+  long double ld_pi = ___________________________;
   std::cout << "The long double pi is: " << ld_pi << std::endl;
 
   return 0;

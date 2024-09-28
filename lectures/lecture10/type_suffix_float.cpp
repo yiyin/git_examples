@@ -16,13 +16,13 @@
 int main()
 {
   double var1 = 3.14159f;  // suffix f means a FP32 float literal
-  double var2 = 3.14159d;  // suffix d means a FP64 float literal
+  double var2 = 3.14159;  // without a suffix, the default means a FP64 float literal
 
   std::cout.setf(std::ios::fixed); // set precision to be decimal places
   std::cout.precision(10);  // set precision to 10
 
   std::cout << "Value of 3.14159f is: " << var1 << std::endl;
-  std::cout << "Value of 3.14159d is: " << var2 << std::endl;
+  std::cout << "Value of 3.14159 is: " << var2 << std::endl;
 
   return 0;
 }

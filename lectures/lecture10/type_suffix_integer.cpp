@@ -22,7 +22,7 @@ int main()
 {
   int var1 = 2247483647; // 
   unsigned int var2 = 2247483647;
-  unsigned int var3 = 2247483647u;
+  unsigned int var3 = ___________;
 
   std::cout << "Value of var1 is: " << var1 << std::endl;
   std::cout << "Value of var2 is: " << var2 << std::endl;
