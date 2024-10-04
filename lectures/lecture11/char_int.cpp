@@ -22,7 +22,7 @@ int main() {
     
     letter = letter + 2; // perform arithmetics on the char:
     // prints out second line
-    std::cout << "The new letter is: " <<  letter << std::endl;
+    std::cout << "The new letter is: " << letter << std::endl;
     
     return 0;
 }
