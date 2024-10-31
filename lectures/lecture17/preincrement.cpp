@@ -9,7 +9,7 @@
 #include <iostream>
 int main(){
   int a = 0; 
-  while ( a++ < 3) { 
+  while ( ++a < 3) { 
     std::cout << a << " Mississippi.\n";
     }
   return 0;
