@@ -4,7 +4,11 @@
  * Date: 2024/11/02
  *
  * Description: 
- * 
+ * This program illustrate the use of for loop
+ * with a different type of update statement.
+ * Instead of having a value of x increased or decreased,
+ * we take the square root of x, which is a valid
+ * update statement. 
  * 
  */
 
