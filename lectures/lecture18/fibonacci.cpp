@@ -1,3 +1,15 @@
+/*
+ * Program: Illustrate how to use loop to perform sequential operation
+ * Author: Yiyin Zhou
+ * Date: 2024/11/02
+ *
+ * Description: 
+ * The code prints out the first n numbers in the
+ * Fibonacci sequence, where n is provided by a user.
+ * 
+ */
+
+
 #include <iostream>
 using std::cout, std::cin, std::endl;
 

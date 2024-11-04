@@ -1,3 +1,19 @@
+/*
+ * Program: Illustrate how to use loop to perform sequential operation
+ * Author: Yiyin Zhou
+ * Date: 2024/11/02
+ *
+ * Description: 
+ * The code prints out the first n numbers in the
+ * Fibonacci sequence, where n is provided by a user.
+ * Compare this program with fibonacci.cpp.
+ * We here use the continue statement to end the iteration
+ * immediately when count is 1 or 2.
+ * Therefore, we do no need an else condition for the 
+ * case when count > 2.
+ */
+
+
 #include <iostream>
 using std::cout, std::cin, std::endl;
 

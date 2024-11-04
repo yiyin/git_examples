@@ -1,3 +1,16 @@
+/*
+ * Program: Illustrate scope inside the for loop
+ * Author: Yiyin Zhou
+ * Date: 2024/11/02
+ *
+ * Description: 
+ * Loop variable i is decalred in the loop,
+ * so the value i cannot be accessed after the loop ends.
+ * This code will result in compilation error.
+ * 
+ */
+
+
 #include <iostream>
 
 int main(){
