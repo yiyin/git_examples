@@ -1,3 +1,18 @@
+/*
+ * Program: Illustrate what happens when you add ; after the for statement.
+ * Author: Yiyin Zhou
+ * Date: 2024/11/02
+ *
+ * Description: 
+ * In this code, we added a ; after the for statement.
+ * This will result in the for loop being executed without
+ * any additoinal statements. But the for loop update will
+ * still be applied and condition checked after each iteration.
+ * The product = product*i; statement is independent of the for loop.
+ * 
+ */
+
+
 #include <iostream>
 
 int main () {

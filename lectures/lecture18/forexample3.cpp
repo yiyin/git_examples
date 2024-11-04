@@ -1,3 +1,14 @@
+/*
+ * Program: Illustrate how to use for loop.
+ * Author: Yiyin Zhou
+ * Date: 2024/11/02
+ *
+ * Description: 
+ * 
+ * 
+ */
+
+
 #include <iostream>
 #include <cmath>
 

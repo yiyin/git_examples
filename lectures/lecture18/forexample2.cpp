@@ -1,3 +1,16 @@
+/*
+ * Program: Illustrate how to use for loop.
+ * Author: Yiyin Zhou
+ * Date: 2024/11/02
+ *
+ * Description: 
+ * Removing ; in the for statement in forexample1.cpp,
+ * we have the following code. compare it to
+ * the output of forexample1.cpp.
+ * 
+ */
+
+
 #include <iostream>
 
 int main () {
