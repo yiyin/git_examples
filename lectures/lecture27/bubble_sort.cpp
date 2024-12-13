@@ -1,3 +1,28 @@
+/*
+ * Program: Illustrate how to use bubble sort
+ * Author: Yiyin Zhou
+ * Date: 2024/12/04
+ *
+ * Description: 
+ * This program provides one implementation of the
+ * bubble sort algorithm.
+ * The advantage of this algorithm is that
+ * 1. it is done in-place, you only need an extra
+ *    variable to during swap.
+ * 2. the logic is quite simple and only involves
+ *    comparison between neighbors.
+ * The only things that you need to take care of is
+ * the nested for loop. Think about what is the goal
+ * for the outer loop and what items you need to loop
+ * over in the inner loop.
+ * 
+ * In addition, it is helpful to define the swap
+ * function, so the swap logic can be isolated.
+ * What you need to do inside the nested for loop is
+ * then quite simple.
+ * 
+ */
+
 #include <iostream>
 #include <climits>
 

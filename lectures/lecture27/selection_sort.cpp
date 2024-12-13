@@ -1,3 +1,25 @@
+/*
+ * Program: Illustrate how to implement selection sort
+ * Author: Yiyin Zhou
+ * Date: 2024/12/04
+ *
+ * Description: 
+ * This program provides one implementation of the
+ * selection sort algorithm.
+ * The basic idea is quite similar to the simple sort
+ * algorithm. You need to find a minimum value.
+ * However, instead of find the min across the entire
+ * array, we only need to find the min from the part
+ * of the array that has not yet been sorted.
+ * The other difference is that the min value is not
+ * written into a new array, but swapped into the ith
+ * index of the array, where i is the outer loop variable. 
+ * 
+ * In addition, it is helpful to define the swap
+ * function, so the swap logic can be isolated.
+ * 
+ */
+
 #include <iostream>
 #include <climits>
 
